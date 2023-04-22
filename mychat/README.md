@@ -2,8 +2,8 @@
 
 ## ** PROJETO INCOMPLETO **
 
-Impossível dar conta de entregar neste fim de semana :'(
-
+Segura a avaliação!
+Um imprevisto surgiu e terminarei o código!
 
 --
 
