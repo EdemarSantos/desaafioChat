@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: app
+    volumes:
+      - .:/home/node/app
+    ports:
+      - "3000:3000"
+
+  db:
+    # image: nouchka/sqlite3:latest
+    image: keinos/sqlite3:3.41.2
+    container_name: sqlite
+    restart: unless-stopped
+    volumes:
+      - ./dev.db:/root/db/
+    ports:
+      - '9000:9000'
